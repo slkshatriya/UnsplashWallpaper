@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void bind(@NonNull GroupieViewHolder viewHolder, int position) {
-            imageView = viewHolder.itemView.findViewById(R.id.image_view);
+            imageView = viewHolder.itemView.findViewById(R.id.simage_view);
             textViewAuthor = viewHolder.itemView.findViewById(R.id.text_view_creator);
             textViewLiks = viewHolder.itemView.findViewById(R.id.text_like);
             Picasso.get().load(imageUrl).into(imageView);
